@@ -1,0 +1,42 @@
+body{
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+	color: #747704;
+}
+
+.text-thin{
+	font-weight: 100;
+}
+
+.text-muted{
+	color: #BCBBBB;
+}
+
+.title-logo{
+	margin-top: 20px;
+}
+
+.title-super{
+	font-size: 60px;
+}
+
+hr {
+	border: solid 2px #BCBBBB ; 
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.whole_screen{
+	width: 100%;
+}
+
+a{
+	padding: 1em; /*this is used so as the link can be tapped in a tablet too*/
+}
+
+
+
+@media screen and (max-width:991px){
+	.logo{text-align: center;display: block}
+	.name_expert{text-align: center;display: block}
+}
